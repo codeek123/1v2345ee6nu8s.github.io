@@ -1,0 +1,285 @@
+
+html{
+    width: 1300px;
+    margin: auto;
+    background: #dee7f3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cfb0b4;
+    width: 1294px;
+   border: groove;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #fdfdfe;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #fce9e8;
+}
+#slika1
+{
+    width: 1300px;
+    height: auto;
+    
+
+}
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+ margin-left: 26px;
+  margin-top: -70px;
+    color: white;
+    font-family: cursive;
+width: 200px;
+    height: auto;
+
+}
+#meni
+{
+    font-family: cursive;
+
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 36%;
+
+    font-family: cursive;
+    color: white;
+    text-shadow: pink;
+
+
+}
+.dates
+{
+    position: center;
+  text-align:center;
+    font-family: cursive;
+    color: #07aeea;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: auto;
+
+}
+#red1
+{
+    display: block;
+
+    text-decoration: underline dotted;
+
+}
+#small
+{
+    font-size: 16px;
+    display: block;
+
+
+
+}
+.venus
+{
+    display: inline-block;
+
+    font-weight: bold;
+
+}
+footer
+{
+    background: #079fe5;
+    height: 50px;
+border: groove;
+    width: 1293px;
+
+    display: inline-block;
+    margin-top: 16px;
+}
+#contact
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+
+
+}
+#about-header
+{
+    width: 700px;
+    height: 750px;
+    padding-top: 30px;
+  float: left;
+    display: inline-block;
+
+}
+.lista
+{
+    text-align: center;
+    color: #079ee4;
+    float:contour;
+    font-size: 20px;
+    font-family: "Amiri Quran";
+}
+h2
+{
+    color: #079ee4;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: cursive;
+    position: center;
+}
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33%;
+    padding: 1px;
+    height: auto;
+
+}
+
+.row
+{
+    display: inline-block;
+padding-top: 70px;
+    
+}
+
+#text
+{
+    font-size: 18px;
+    font-family:"Amiri Quran";
+    color: #079ee4;
+    text-align: center;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #079ee4;
+    color: white;
+    border-radius: 50px;
+    width: 10px;
+    height: 8px;
+    float: left;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #079ee4;
+    color: white;
+    border-radius: 50px;
+    width: 20px;
+    height: 8px;
+    float: left;
+}
+.fa-instagram {
+    background: #079ee4;
+    color: white;
+    border-radius: 50px;
+    width: 10px;
+    height: 8px;
+    float: left;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #079ee4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #ceafb3;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+    border-radius: 5px;
+    background-color: #dde6f2;
+    padding: 20px;
+    width: 500px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.mapouter
+{
+    position:absolute;
+    text-align:right;
+    height:500px;
+    width:600px;
+
+
+}
+.gmap_canvas
+{
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+    width:500px;
+ float: right;
+    position: absolute;
+    display: inline-block;
+    margin-top: -450px;
+}
+.text
+{
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-left: 130px;
+    margin-top: 25px;
+}
